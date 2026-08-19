@@ -1,0 +1,13 @@
+:root {
+  --main-background: oklch(30% 0 250);
+  
+  --text-color: oklch(90% 0 250);
+}
+
+body {
+  background: var(--main-background);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
