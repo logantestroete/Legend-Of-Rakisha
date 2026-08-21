@@ -1,4 +1,3 @@
-using LoR.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace LoR.Data;
@@ -10,6 +9,4 @@ public class DatabaseContext : DbContext
         : base(options)
     {
     }
-
-    public DbSet<Item> Items => Set<Item>();
 }
